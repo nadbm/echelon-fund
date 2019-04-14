@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "echelon",
+            "script": "npm",
+            "args" : "start"
+        }
+    ]
+}

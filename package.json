@@ -1,0 +1,48 @@
+{
+  "name": "cryptofund",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "git+https://github.com/axios/axios.git",
+    "canvas2svg": "^1.0.16",
+    "extract-svg-path": "^2.1.0",
+    "grid-styled": "^2.0.0-10",
+    "lodash": "^4.17.4",
+    "mailgun-js": "^0.13.1",
+    "mobile-detect": "^1.3.7",
+    "moment": "^2.18.1",
+    "nedb": "^1.8.0",
+    "next": "^3.2.1",
+    "node-fetch": "^1.7.3",
+    "pdffiller": "0.0.10",
+    "pdfkit": "^0.8.3",
+    "randomstring": "^1.1.5",
+    "react": "^15.6.1",
+    "react-animations": "^0.1.0",
+    "react-dom": "^15.6.1",
+    "react-mailchimp-subscribe": "^1.0.2",
+    "react-number-format": "^2.0.4",
+    "react-track": "^0.4.4",
+    "react-waypoint": "^7.1.0",
+    "scrollreveal": "^4.0.0-beta.14",
+    "signature_pad": "^2.3.2",
+    "styled-components": "^2.1.2",
+    "styled-media-query": "^2.0.1",
+    "svgpath": "^2.2.1",
+    "victory": "^0.21.5",
+    "whatwg-fetch": "^2.0.3",
+    "yup": "^0.22.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.2.0"
+  }
+}
